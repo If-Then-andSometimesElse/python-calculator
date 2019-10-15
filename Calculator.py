@@ -30,7 +30,6 @@ class Calculator:
 
     def sin(self, nums):
         result = list(map(math.sin, nums))
-
         return result
 
     def m_to_cm(self, nums):
@@ -40,4 +39,8 @@ class Calculator:
 
     def tan(self, nums):
         result = list(map(math.tan, nums))
+        return result
+    
+    def max(self, nums):
+        result = self.max(nums)
         return result
